@@ -1,16 +1,5 @@
 public class Auto extends Cars implements Competing {
 
-    public enum BodyType {
-        SEDAN,
-        HATCHBACK,
-        COMPARTMENT,
-        UNIVERSAL,
-        OFF_ROAD_VEHICLE,
-        CROSSOVER,
-        PICKUP,
-        VAN,
-        MINIVAN;
-    }
 
     private BodyType bodyType;
 
@@ -59,7 +48,6 @@ public class Auto extends Cars implements Competing {
         System.out.println(this.getBrand() + " " + this.getModel() + " развивает максимальную скорость!");
         return 0;
     }
-
 
 
 }

@@ -27,20 +27,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Auto audi = new Auto("Audi", "A8", 2.7, Auto.BodyType.SEDAN);
-        Auto hyundai = new Auto("Hyundai", "Ferrato", 2.3, Auto.BodyType.COMPARTMENT);
-        Auto lada = new Auto("Lada", "Grande", 1.6, Auto.BodyType.CROSSOVER);
-        Auto ford = new Auto("Ford", "Focus", -5.0, Auto.BodyType.OFF_ROAD_VEHICLE);
+        Auto audi = new Auto("Audi", "A8", 2.7, BodyType.SEDAN);
+        Auto hyundai = new Auto("Hyundai", "Ferrato", 2.3, BodyType.COMPARTMENT);
+        Auto lada = new Auto("Lada", "Grande", 1.6, BodyType.CROSSOVER);
+        Auto ford = new Auto("Ford", "Focus", -5.0, BodyType.OFF_ROAD_VEHICLE);
 
-        Trucks kamaz = new Trucks("Камаз", "А 30", 18.0, Trucks.LoadCapacity.N1);
-        Trucks sable = new Trucks("Соболь", "М 333", 11.0, Trucks.LoadCapacity.N2);
-        Trucks gazelle = new Trucks("Газель", "Г 3", 9.0, Trucks.LoadCapacity.N2);
-        Trucks zil = new Trucks("ЗИЛ", "З 100", 17.0, Trucks.LoadCapacity.N3);
+        Trucks kamaz = new Trucks("Камаз", "А 30", 18.0, LoadCapacity.N1);
+        Trucks sable = new Trucks("Соболь", "М 333", 11.0, LoadCapacity.N2);
+        Trucks gazelle = new Trucks("Газель", "Г 3", 9.0, LoadCapacity.N2);
+        Trucks zil = new Trucks("ЗИЛ", "З 100", 17.0, LoadCapacity.N3);
 
-        Bus lion = new Bus("Lion", "City", 10, Bus.Capacity.VERY_SMALL);
-        Bus city = new Bus("СитиРитм", "10", 9, Bus.Capacity.VERY_SMALL);
-        Bus cursor = new Bus("ЛиАЗ", "4292", 8, Bus.Capacity.AVERAGE);
-        Bus mercedez = new Bus("Mercedez-Benz", "Sprinter II", 7, Bus.Capacity.SMALL);
+        Bus lion = new Bus("Lion", "City", 10, Capacity.VERY_SMALL);
+        Bus city = new Bus("СитиРитм", "10", 9, Capacity.VERY_SMALL);
+        Bus cursor = new Bus("ЛиАЗ", "4292", 8, Capacity.AVERAGE);
+        Bus mercedez = new Bus("Mercedez-Benz", "Sprinter II", 7, Capacity.SMALL);
 
         printInfoByAuto(audi);
         printInfoByAuto(hyundai);
